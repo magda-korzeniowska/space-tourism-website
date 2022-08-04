@@ -101,7 +101,20 @@ img, picture {
   padding-inline: 2rem;
   margin-inline: auto;
   max-width: 80rem;
+}
 
+.grid-container {
+  display: grid;
+  column-gap: var(--container-gap, 2rem);
+  grid-template-columns: minmax(2rem, 1fr) minmax(0, 30rem) minmax(0, 40rem) 2em;
+}
+
+.grid-container>*:first-child {
+  grid-column: 2;
+}
+
+.grid-container>*:last-child {
+  grid-column: 3;
 }
 
 /* screed reader only */
