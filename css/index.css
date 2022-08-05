@@ -113,6 +113,10 @@ img, picture {
   gap: var(--gap, 1rem);
 }
 
+.d-block {
+  display: block;
+}
+
 /*  '*+*' is the same as '*:not(:first-child)' => everything but first child */
 .flow>*+* {
   margin-top: var(--flow-space, 1rem);
@@ -126,23 +130,34 @@ img, picture {
 
 .grid-container {
   display: grid;
-  border: 5px solid limegreen;
+  text-align: center;
+  place-items: center;
+  padding-inline: 1rem;
+}
+
+/* everything which is in grid container */
+.grid-container * {
+  max-width: 50ch;
 }
 
 @media (min-width: 720px) {
   .grid-container {
+    text-align: left;
     column-gap: var(--container-gap, 2rem);
-    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(2rem, 1fr);
+    grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(1rem, 1fr);
   }
 
   .grid-container>*:first-child {
     grid-column: 2;
-    outline: 1px solid red;
   }
 
   .grid-container>*:last-child {
     grid-column: 3;
-    outline: 1px solid yellow;
+  }
+
+  .grid-container--home {
+    padding-bottom: 6rem;
+    align-items: end;
   }
 }
 
@@ -272,6 +287,7 @@ img, picture {
 /* ---------------------- */
 
 .large-button {
+  font-size: 2rem;
   position: relative;
   display: inline-grid;
   place-items: center;
