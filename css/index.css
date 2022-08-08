@@ -395,3 +395,32 @@ img, picture {
   background-color: hsl(var(--clr-white) / 1);
   color: hsl(var(--clr-dark));
 }
+
+
+/* --------------------------- */
+/* PAGE SPECIFIC - background  */
+/* --------------------------- */
+
+body {
+  background-size: cover;
+  background-position: bottom center;
+}
+
+/* home page */
+
+.home {
+  background-image: url(../assets/home/background-home-mobile.jpg);
+}
+
+@media (min-width: 560px) {
+  .home {
+    background-image: url(../assets/home/background-home-tablet.jpg);
+    background-position: center center;
+  }
+}
+
+@media (min-width: 720px) {
+  .home {
+    background-image: url(../assets/home/background-home-desktop.jpg);
+  }
+}
