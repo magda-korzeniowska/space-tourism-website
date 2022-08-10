@@ -349,6 +349,11 @@ img, picture {
     z-index: 10;
     inset: 0 0 0 30%;
     transform: translate(100%);
+    transition: .5s transform ease-in-out;
+  }
+
+  .primary-navigation[data-visible='true'] {
+    transform: translate(0);
   }
 
   .primary-navigation.underline-indicators>.active {
@@ -365,10 +370,19 @@ img, picture {
     border: 0;
     background-image: url(../assets/shared/icon-hamburger.svg);
     background-repeat: no-repeat;
+    background-position: center;
     width: 1.5rem;
     aspect-ratio: 1;
   }
 
+  .mobile-nav-toggle[aria-expanded='true'] {
+    background-image: url(../assets/shared/icon-close.svg);
+  }
+}
+
+.mobile-nav-toggle:focus-visible {
+  outline: 5px solid white;
+  outline-offset: 5px;
 }
 
 .primary-navigation a {
