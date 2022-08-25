@@ -469,11 +469,6 @@ img, picture {
   background-color: hsl(var(--clr-white) / 1);
 }
 
-.number-indicators {
-  flex-direction: column;
-  width: 50%
-}
-
 .number-indicators>* {
   cursor: pointer;
   border: .5px solid hsl(var(--clr-white) / .5);
@@ -481,6 +476,8 @@ img, picture {
   aspect-ratio: 1;
   background-color: hsl(var(--clr-dark));
   color: hsl(var(--clr-white) / 1);
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .number-indicators>*:hover, .number-indicators>*:focus {
@@ -648,6 +645,39 @@ body {
 .crew-details h2 {
   color: hsl(var(--clr-white) / .5)
 }
+
+/* technology layout */
+
+.grid-container--technology {
+  padding-inline: 0;
+  --flow-space: 2rem;
+  grid-template-areas:
+    'title'
+    'image'
+    'numbers'
+    'content';
+}
+
+.grid-container--technology .numbered-title {
+  grid-area: title;
+  padding-inline: 1rem;
+}
+
+.grid-container--technology>picture {
+  grid-area: image;
+  max-width: 100%;
+  border-bottom: 1px solid hsl(var(--clr-white) / .1);
+}
+
+.grid-container--technology>.number-indicators {
+  grid-area: numbers;
+}
+
+.grid-container--technology>.technology-details {
+  grid-area: content;
+  padding-inline: 1rem;
+}
+
 
 
 @media (min-width: 560px) {
