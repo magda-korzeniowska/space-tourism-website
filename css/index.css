@@ -736,7 +736,7 @@ body {
   }
 
   .grid-container--home {
-    padding-bottom: 6rem;
+    padding-bottom: 10rem;
     align-items: end;
   }
 
@@ -770,15 +770,21 @@ body {
     justify-items: start;
     grid-template-columns: minmax(1rem, 1fr) minmax(0, 37rem) minmax(0, 23rem) minmax(1rem, 1fr);
     grid-template-areas:
-      '. title title .'
+      '. title image .'
       '. content image .'
       '. dots image .';
   }
 
   .grid-container--crew>picture {
+    /* grid is allowed to break into right side to the last column*/
     grid-column: span 2;
     align-self: end;
     max-width: 90%;
+  }
+
+  .grid-container--crew>.dot-indicators {
+    align-self: end;
+    padding-bottom: 8rem;
   }
 
   .number-indicators {
