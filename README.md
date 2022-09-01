@@ -21,8 +21,11 @@ This is a solution to the [Space tourism multi-page website challenge on Fronten
 ![Tablet](/assets/preview/preview-home-tablet.png?raw=true "Tablet")
 
 <p align="middle">
-  <img align="top" src="/assets/preview/preview-home-mobile.png?raw=true" width="48%" />
-  <img align="top" src="/assets/preview/preview-home-mobile-menu.png?raw=true" width="48%" />
+  <img align="top" src="/assets/preview/preview-home-tablet.png?raw=true" width="50%" />
+</p>
+<p align="middle">
+  <img align="top" src="/assets/preview/preview-home-mobile.png?raw=true" width="49%" />
+  <img align="top" src="/assets/preview/preview-home-mobile-menu.png?raw=true" width="49%" />
 </p>
 
 ### Challenge
