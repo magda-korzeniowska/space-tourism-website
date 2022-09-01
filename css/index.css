@@ -779,7 +779,7 @@ body {
     /* grid is allowed to break into right side to the last column*/
     grid-column: span 2;
     align-self: end;
-    max-width: 90%;
+    max-width: 80%;
   }
 
   .grid-container--crew>.dot-indicators {
