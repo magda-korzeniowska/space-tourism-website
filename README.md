@@ -18,14 +18,13 @@ This is a solution to the [Space tourism multi-page website challenge on Fronten
 ### Screenshot
 
 ![Desktop](/assets/preview/preview-home-desktop.png?raw=true "Desktop")
-![Tablet](/assets/preview/preview-home-tablet.png?raw=true "Tablet")
 
 <p align="middle">
-  <img align="top" src="/assets/preview/preview-home-tablet.png?raw=true" width="50%" />
+  <img align="top" src="/assets/preview/preview-home-tablet.png?raw=true" width="70%" />
 </p>
 <p align="middle">
-  <img align="top" src="/assets/preview/preview-home-mobile.png?raw=true" width="49%" />
-  <img align="top" src="/assets/preview/preview-home-mobile-menu.png?raw=true" width="49%" />
+  <img align="top" src="/assets/preview/preview-home-mobile.png?raw=true" width="35%" />
+  <img align="top" src="/assets/preview/preview-home-mobile-menu.png?raw=true" width="35%" />
 </p>
 
 ### Challenge
