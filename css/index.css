@@ -34,7 +34,7 @@
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 821px) {
   :root {
     /* font-sizes */
     --fs-800: 6.25rem;
@@ -408,7 +408,7 @@ img, picture {
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 821px) {
   .primary-header::after {
     content: '';
     display: block;
@@ -518,7 +518,7 @@ body {
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 821px) {
   .home {
     background-image: url(../assets/home/background-home-desktop.jpg);
   }
@@ -537,7 +537,7 @@ body {
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 821px) {
   .destination {
     background-image: url(../assets/destination/background-destination-desktop.jpg);
   }
@@ -556,7 +556,7 @@ body {
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 821px) {
   .crew {
     background-image: url(../assets/crew/background-crew-desktop.jpg);
   }
@@ -575,7 +575,7 @@ body {
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 821px) {
   .technology {
     background-image: url(../assets/technology/background-technology-desktop.jpg);
   }
@@ -728,7 +728,7 @@ body {
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 821px) {
   .grid-container {
     text-align: left;
     column-gap: var(--container-gap, 2rem);
